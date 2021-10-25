@@ -1,9 +1,6 @@
 <?php
 
 class AddNamesProc {
-    function __construct(){
-        
-    }
     function addClearNames(){
         if (isset($_POST["clearNames"])) {
             return "";
